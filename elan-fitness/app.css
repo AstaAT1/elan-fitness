@@ -1,0 +1,49 @@
+
+.map iframe{
+    width: 80%;
+    height: 500px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-titre {
+  max-width: 640px;
+  margin: 0 auto 64px;
+  text-align: center;
+}
+
+.section-titre h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.section-titre h3 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.section-titre p {
+  color: #4B5563;
+}
+.en-tete{
+    margin-bottom: 64px;
+}
+footer{
+    margin-top: 64px;
+    
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 80%;
+    margin-top: 64px;
+}
+.form-right{
+   width: 45%;
+}
