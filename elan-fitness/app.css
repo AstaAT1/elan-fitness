@@ -1,18 +1,16 @@
-
-.map iframe{
-    width: 80%;
-    height: 500px;
+.map iframe {
+  width: 1200px;
+  height: 500px;
 }
-.map{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-titre {
-  max-width: 640px;
-  margin: 0 auto 64px;
   text-align: center;
+  margin: 0;
 }
 
 .section-titre h2 {
@@ -26,24 +24,40 @@
 }
 
 .section-titre p {
-  color: #4B5563;
+  color: #4b5563;
 }
-.en-tete{
-    margin-bottom: 64px;
+.en-tete {
+  margin-bottom: 64px;
 }
-footer{
-    margin-top: 64px;
-    
+footer {
+  margin-top: 64px;
 }
 
-.contact-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    width: 80%;
-    margin-top: 64px;
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
-.form-right{
-   width: 45%;
+.form-right {
+  width: 35%;
+}
+.form-left {
+  width: 45%;
+  background-color: #4b5563;
+  padding: 10px;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.conta{
+    
 }

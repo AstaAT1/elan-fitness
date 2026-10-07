@@ -545,3 +545,9 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.logoname{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
