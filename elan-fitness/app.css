@@ -35,21 +35,24 @@ footer {
 
 .contact-form {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 60px;
+  /* height: auto; */
 }
 .form-right {
-  width: 35%;
+  width: 45%;
 }
 .form-left {
-  width: 45%;
-  background-color: #4b5563;
-  padding: 10px;
+  width: 50%;
+    background-color: rgb(236, 236, 236);
+  padding: 25px;
     display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   gap: 20px;
+  border: #4b5563 solid 1px;
+  border-radius: 25px;
 }
 .parent {
   display: flex;
@@ -58,6 +61,63 @@ footer {
   flex-direction: column;
   gap: 80px;
 }
-.conta{
-    
+.conta p , .conta3 p , .conta2 p{
+    margin-bottom: -15px;
+    font-weight: bold;
+    font-size: 19px;
+    color: black;
 }
+.conta h3 , .conta3 h3 , .conta2 h3{
+    font-weight: bold;
+    font-size: 19px;
+    color: #FF6B2C;
+}
+.conta  , .conta3  , .conta2 {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name input{
+    width: 200px;
+}
+.first-name , .second-name , .email , .message{
+display: flex;
+flex-direction: column;
+gap: 6px;
+
+}
+label{
+    font-weight: bold;
+}
+input , textarea{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #4b5563;
+    font-style: oblique;
+
+}
+.message textarea{
+    resize: none;
+    
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 8px;
+    border: 2px solid #4b5563;
+    background-color: #FF6B2C;
+    width: 100px;
+    padding: 5px;
+  
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
