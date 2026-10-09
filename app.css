@@ -51,7 +51,9 @@ footer {
   justify-content: space-between;
   flex-direction: column;
   gap: 20px;
-  border: #4b5563 solid 1px;
+  background-color:#fcfcfc;
+ 
+  border: #E5E7EB solid 1px;
   border-radius: 5px;
 }
 .parent {
