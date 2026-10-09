@@ -46,14 +46,13 @@ footer {
 }
 .form-left {
   width: 40%;
-    background-color: rgb(236, 236, 236);
   padding: 25px;
     display: flex;
   justify-content: space-between;
   flex-direction: column;
   gap: 20px;
   border: #4b5563 solid 1px;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 .parent {
   display: flex;
@@ -113,8 +112,9 @@ input , textarea{
 button{
     border-radius: 8px;
     border: 2px solid #4b5563;
-    background-color: #FF6B2C;
+    background-color: black;
     width: 100px;
+    color: #fcfcfc;
     padding: 5px;
   
     font-size: 15px;
@@ -123,9 +123,8 @@ button{
 }
 
 .form-right img{
-    width: 330px;
-    height: 230px;
-    display: none;
+    width: 380px;
+    height: 250px;
     border-radius: 20px;
     border: 1px solid #E5E7EB;
     box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
@@ -133,17 +132,115 @@ button{
 
 .cadr{
     display: flex;
+    flex-direction: column;
     gap: 10px;
     margin-bottom: 10px;
 }
 .cadr2{
     display: flex;
-    gap: 150px;
+    flex-direction: column;
+    gap: 10px;
     margin-bottom: 10px;
+}
+.cover{
+  display: flex;
+  gap: 25px;
 }
 .abonment select{
     padding: 3px;
     border-radius: 4px;
     border: 1px solid #4b5563;
     font-style: oblique;
+}
+header label ,  header input{
+  display: none;
+}
+
+.cadeau {
+  position: absolute;
+  background-color:black;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  left: 230px;
+  top: 1150px;
+  height: 50px;
+  width: 200px;
+  gap: 3px;
+  text-align: center;
+  display: none;
+}
+.cadeau p{
+  font-weight: bold;
+  margin-bottom: 0;
+   color: white;
+}
+.cover img:hover ~ .cadeau{
+  
+    display: flex;
+  
+}
+.cover img:hover{
+   filter: blur(1px);
+}
+
+
+@media (max-width: 770px) and (min-width: 410px) {
+  nav ul {
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: -800px;
+  background-color: #fcfcfc;
+   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+}
+header label{
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+  #px:checked ~ nav ul {
+    left: 0;
+  }
+  .section-titre h2{
+    font-size: 27px;
+  }
+  .section-titre p{
+    font-size: 13px;
+  }
+   .map{
+    width: 400px;
+   }
+
+  .contact-form {
+    flex-direction: column;
+  }
+  .form-left {
+    /* display: none; */
+    width: 100%;
+  }
+  .name input , .email input{
+    display: flex;
+    width: 100%;
+  }
+
+  .name{
+    flex-direction: column;
+  }
+  .form-right{
+   width: 100%;
+  }
+  .cover{
+    flex-direction: column;
+  }
+  .cadeau{
+    left: 100px;
+    top: 1200px;
+  }
 }

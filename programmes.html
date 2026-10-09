@@ -11,26 +11,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
    <link rel="icon" href="img/logoBG.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />   
 </head>
 <body>
-     <header class="en-tete">
-            <div class="conteneur en-tete-contenu">
-               <div class="logoname">
-                <img src="img/logoBG.ico" href="index.html" alt="" width="50px">
-       <a href="index.html" class="logo">Élan Fitness</a>
-
-              </div>
-
-                <nav aria-label="Navigation principale">
-                    <ul class="menu">
-                        <li><a href="index.html" >Accueil</a></li>
-                        <li><a href="about.html">À propos</a></li>
-                        <li><a href="programmes.html" class="lien-actif">Programmes</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+      <header class="en-tete">
+      <div class="conteneur en-tete-contenu">
+        <div class="logoname">
+          <img src="img/logoBG.ico" href="index.html" alt="" width="50px" />
+          <a href="index.html" class="logo">Élan Fitness</a>
+        </div>
+       <input type="checkbox" id="px">
+      <label for="px"><i class="fa-solid fa-bars" style="color: rgb(0, 0, 0);"></i></label>
+        <nav aria-label="Navigation principale">
+          <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="#programmes" class="lien-actif">Programmes</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   
   <section id="programmes" class="section">
       <div class="conteneur">
@@ -139,7 +140,11 @@
 
       <div class="pied-haut">
         <div>
-          <p class="logo logo-clair">Élan Fitness</p>
+         <div class="logoname">
+                <img src="img/logoBG.ico" href="index.html" alt="" width="50px">
+       <a href="index.html" class="logo logo-clair">Élan Fitness</a>
+
+              </div>
           <p class="slogan">Ton énergie, ton rythme.</p>
         </div>
 

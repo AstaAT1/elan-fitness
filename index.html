@@ -10,30 +10,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link rel="icon" href="img/logoBG.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />   
+    
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header class="en-tete">
-    <div class="conteneur en-tete-contenu">
-            <div class="logoname">
-                <img src="img/logoBG.ico" href="index.html" alt="" width="50px">
-       <a href="index.html" class="logo">Élan Fitness</a>
-
-              </div>
-
-      <nav aria-label="Navigation principale">
-        <ul class="menu">
-          <li><a href="#accueil" class="lien-actif">Accueil</a></li>
-          <li><a href="about.html">À propos</a></li>
-          <li><a href="programmes.html">Programmes</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header class="en-tete">
+      <div class="conteneur en-tete-contenu">
+        <div class="logoname">
+          <img src="img/logoBG.ico" href="index.html" alt="" width="50px" />
+          <a href="index.html" class="logo">Élan Fitness</a>
+        </div>
+       <input type="checkbox" id="px">
+      <label for="px"><i class="fa-solid fa-bars" style="color: rgb(0, 0, 0);"></i></label>
+        <nav aria-label="Navigation principale">
+          <ul class="menu">
+            <li><a href="#accueil" class="lien-actif">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
  
 
@@ -48,8 +49,8 @@
               Des coachs diplômés, des programmes pour tous les niveaux et une salle ouverte 7 jours sur 7.
             </p>
             <div class="boutons">
-              <a href="#programmes" class="bouton bouton-principal">Voir les programmes</a>
-              <a href="#contact" class="bouton bouton-secondaire">Cours d'essai gratuit</a>
+              <a href="programmes.html" class="bouton bouton-principal">Voir les programmes</a>
+              <a href="contact.html" class="bouton bouton-secondaire">Cours d'essai gratuit</a>
             </div>
           </div>
 
@@ -79,9 +80,14 @@
 
       <div class="pied-haut">
         <div>
-          <p class="logo logo-clair">Élan Fitness</p>
+        <div class="logoname">
+                <img src="img/logoBG.ico" href="index.html" alt="" width="50px">
+       <a href="index.html" class="logo logo-clair">Élan Fitness</a>
+
+              </div>
           <p class="slogan">Ton énergie, ton rythme.</p>
         </div>
+        
 
         <nav aria-label="Navigation du pied de page">
           <ul class="menu menu-pied">

@@ -551,3 +551,59 @@ button:focus-visible {
   align-items: center;
   gap: 10px;
 }
+header label ,  header input{
+  display: none;
+}
+@media (max-width: 770px) and (min-width: 410px) {
+  nav ul {
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: -800px;
+  background-color: #fcfcfc;
+   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+}
+header label{
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+  #px:checked ~ nav ul {
+    left: 0;
+  }
+  .section-titre h2{
+    font-size: 27px;
+  }
+  .section-titre p{
+    font-size: 13px;
+  }
+   .map{
+    width: 380px;
+   }
+
+  .contact-form {
+    flex-direction: column;
+  }
+  .form-left {
+    /* display: none; */
+    width: 100%;
+  }
+  .name input , .email input{
+    display: flex;
+    width: 100%;
+  }
+
+  .name{
+    flex-direction: column;
+  }
+  .form-right{
+   width: 100%;
+  }
+  .cover{
+    flex-direction: column;
+  }
+}
