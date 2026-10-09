@@ -39,12 +39,13 @@ footer {
   /* align-items: center; */
   gap: 60px;
   /* height: auto; */
+  width: 80%;
 }
 .form-right {
-  width: 45%;
+  width: 60%;
 }
 .form-left {
-  width: 50%;
+  width: 40%;
     background-color: rgb(236, 236, 236);
   padding: 25px;
     display: flex;
@@ -63,14 +64,14 @@ footer {
 }
 .conta p , .conta3 p , .conta2 p{
     margin-bottom: -15px;
-    font-weight: bold;
-    font-size: 19px;
+    font-weight: bolder;
+    font-size: 20px;
     color: black;
 }
 .conta h3 , .conta3 h3 , .conta2 h3{
     font-weight: bold;
     font-size: 19px;
-    color: #FF6B2C;
+    color: #4b5563;
 }
 .conta  , .conta3  , .conta2 {
     display: flex;
@@ -82,7 +83,7 @@ footer {
     justify-content: space-between;
 }
 .name input{
-    width: 200px;
+    width: 185px;
 }
 .first-name , .second-name , .email , .message{
 display: flex;
@@ -100,7 +101,7 @@ input , textarea{
     font-style: oblique;
 
 }
-.message textarea{
+.message textarea {
     resize: none;
     
    
@@ -121,3 +122,28 @@ button{
 
 }
 
+.form-right img{
+    width: 330px;
+    height: 230px;
+    display: none;
+    border-radius: 20px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+}
+
+.cadr{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.cadr2{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 10px;
+}
+.abonment select{
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid #4b5563;
+    font-style: oblique;
+}
